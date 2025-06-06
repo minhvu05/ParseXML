@@ -1,0 +1,2175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registryDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaVersion="1.0">
+  <submission xmsnId="128058">
+    <section code="ADMIN" displayName="Administration">
+      <element code="2.16.840.1.113883.3.3478.4.836" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Participant ID">
+        <value xsi:type="NUM" value="999999" />
+      </element>
+      <element code="2.16.840.1.113883.3.3478.4.836" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Participant Name">
+        <value xsi:type="ST" value="American College Of Cardiology" />
+      </element>
+      <element code="1.3.6.1.4.1.19376.1.4.1.6.5.45" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Time Frame of Data Submission">
+        <value xsi:type="ST" value="2025Q2" />
+      </element>
+      <element code="1.3.6.1.4.1.19376.1.4.1.6.5.45" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Transmission Number">
+        <value xsi:type="NUM" value="128058" />
+      </element>
+      <element code="2.16.840.1.113883.3.3478.4.840" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Vendor Identifier">
+        <value xsi:type="ST" value="ACC" />
+      </element>
+      <element code="2.16.840.1.113883.3.3478.4.847" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Vendor Software Version">
+        <value xsi:type="ST" value="ACC01" />
+      </element>
+      <element code="2.16.840.1.113883.3.3478.4.841" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Registry Identifier">
+        <value xsi:type="ST" value="ACC-NCDR-CPMI-3.1" />
+      </element>
+      <element code="112000001856" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Patient Population">
+        <value xsi:type="CD" code="100000930" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="All Patients" />
+      </element>
+      <element code="1000142423" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Submission Type">
+        <value xsi:type="CD" code="1000142424" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Episode of Care Records Only" />
+      </element>
+      <element code="1000142438" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Registry Schema Version">
+        <value xsi:type="NUM" value="1" />
+      </element>
+      <element code="112000000421" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Sampling">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="385438008" codeSystem="2.16.840.1.113883.6.96" displayName="Submission Dataset">
+        <value xsi:type="CD" code="FDS" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Full Dataset" />
+      </element>
+    </section>
+  </submission>
+  <patient ncdrPatientId="9442318">
+    <section code="DEMOGRAPHICS" displayName="Demographics">
+      <element code="1000142463" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Last Name">
+        <value xsi:type="LN" value="Test_ihD" />
+      </element>
+      <element code="1000142463" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="First Name">
+        <value xsi:type="FN" value="Test_tYK" />
+      </element>
+      <element code="2.16.840.1.113883.4.1" codeSystem="2.16.840.1.113883.4.1" displayName="SSN">
+        <value xsi:type="ST" value="111181009" />
+      </element>
+      <element code="2.16.840.1.113883.4.1" codeSystem="2.16.840.1.113883.4.1" displayName="SSN N/A">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="1000142447" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Birth Date">
+        <value xsi:type="DT" value="1995-04-10" />
+      </element>
+      <element code="1000142448" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Sex">
+        <value xsi:type="CD" code="F" codeSystem="2.16.840.1.113883.5.1" displayName="Female" />
+      </element>
+      <element code="1000142449" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Patient Zip Code">
+        <value xsi:type="ST" value="20010" />
+      </element>
+      <element code="1000142449" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Zip Code N/A">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="2106-3" codeSystem="2.16.840.1.113883.5.104" displayName="White">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="2054-5" codeSystem="2.16.840.1.113883.5.104" displayName="Black/African American">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="2028-9" codeSystem="2.16.840.1.113883.5.104" displayName="Asian">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="1002-5" codeSystem="2.16.840.1.113883.5.104" displayName="American Indian/Alaskan Native">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="2076-8" codeSystem="2.16.840.1.113883.5.104" displayName="Native Hawaiian/Pacific Islander">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="2135-2" codeSystem="2.16.840.1.113883.5.50" displayName="Hispanic or Latino Ethnicity">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="2.16.840.1.113883.3.3478.4.843" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Other ID">
+        <value xsi:type="ST" value="Test_OID" />
+      </element>
+    </section>
+    <episode episodeKey="2be0aff6-df4d-49b0-9931-03b8b71bd77a">
+      <section code="EPISODEOFCARE" displayName="Episode of Care">
+        <section code="EOCINFO" displayName="Episode Information">
+          <element code="1000142450" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Arrival Date/Time">
+            <value xsi:type="TS" value="2025-04-01T10:00:00" />
+          </element>
+          <element code="112000000162" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Admission Date/Time">
+            <value xsi:type="TS" value="2025-04-01T10:00:00" />
+          </element>
+          <section code="HEALTHINS" displayName="Health Insurance">
+            <element code="63513-6" codeSystem="2.16.840.1.113883.6.1" displayName="Health Insurance">
+              <value xsi:type="BL" value="true" />
+            </element>
+            <element code="100001072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Payment Source">
+              <value xsi:type="CD" code="5" codeSystem="2.16.840.1.113883.3.221.5" displayName="Private Health Insurance" />
+            </element>
+          </section>
+        </section>
+      </section>
+      <section code="DIAGISCD" displayName="Diagnosis and Intersystem Care Delivery">
+        <section code="DIAG" displayName="Diagnosis">
+          <element code="112000000214" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Patient Type">
+            <value xsi:type="CD" code="401303003" codeSystem="2.16.840.1.113883.6.96" displayName="Acute ST segment elevation myocardial infarction" />
+          </element>
+          <element code="112000000302" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Setting">
+            <value xsi:type="CD" code="112000000300" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Pre-Admit STEMI" />
+          </element>
+        </section>
+      </section>
+      <section code="HXANDRISKFACTORS" displayName="History and Risk Factors">
+        <element code="62914000" codeSystem="2.16.840.1.113883.6.96" displayName="Cerebrovascular Disease">
+          <value xsi:type="BL" value="false" />
+        </element>
+        <element code="108241001" codeSystem="2.16.840.1.113883.6.96" displayName="Dialysis">
+          <value xsi:type="BL" value="false" />
+        </element>
+        <element code="84114007" codeSystem="2.16.840.1.113883.6.96" displayName="Heart Failure">
+          <value xsi:type="BL" value="false" />
+        </element>
+        <element code="38341003" codeSystem="2.16.840.1.113883.6.96" displayName="Hypertension">
+          <value xsi:type="BL" value="false" />
+        </element>
+        <element code="73211009" codeSystem="2.16.840.1.113883.6.96" displayName="Diabetes Mellitus">
+          <value xsi:type="BL" value="false" />
+        </element>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="49436004" codeSystem="2.16.840.1.113883.6.96" displayName="Atrial Fibrillation" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="5370000" codeSystem="2.16.840.1.113883.6.96" displayName="Atrial Flutter" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="363346000" codeSystem="2.16.840.1.113883.6.96" displayName="Cancer" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="370992007" codeSystem="2.16.840.1.113883.6.96" displayName="Dyslipidemia" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="22298006" codeSystem="2.16.840.1.113883.6.96" displayName="Myocardial Infarction" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="399957001" codeSystem="2.16.840.1.113883.6.96" displayName="Peripheral Arterial Disease" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="PROCHX" displayName="Procedure History">
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Procedure History">
+            <value xsi:type="CD" code="232717009" codeSystem="2.16.840.1.113883.6.96" displayName="Coronary Artery Bypass Graft" />
+          </element>
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="PROCHX" displayName="Procedure History">
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Procedure History">
+            <value xsi:type="CD" code="415070008" codeSystem="2.16.840.1.113883.6.96" displayName="Percutaneous Coronary Intervention" />
+          </element>
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+      </section>
+      <section code="PTASSESS" displayName="Patient Assessment On Arrival">
+        <section code="CARDIACTN" displayName="Cardiac Troponin">
+          <element code="105000003" codeSystem="2.16.840.1.113883.6.96" displayName="Troponin Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+      </section>
+      <section code="MEDS" displayName="Medications">
+        <section code="HOMEMEDSIND" displayName="Home Medications">
+          <section code="HOMEMEDS" displayName="Home Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Home Medication Code">
+              <value xsi:type="CD" code="41549009" codeSystem="2.16.840.1.113883.6.96" displayName="Angiotensin Converting Enzyme Inhibitor" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Prescribed">
+              <value xsi:type="CD" code="100013073" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="No" />
+            </element>
+          </section>
+          <section code="HOMEMEDS" displayName="Home Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Home Medication Code">
+              <value xsi:type="CD" code="372913009" codeSystem="2.16.840.1.113883.6.96" displayName="Angiotensin II Receptor Blocker" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Prescribed">
+              <value xsi:type="CD" code="100013073" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="No" />
+            </element>
+          </section>
+          <section code="HOMEMEDS" displayName="Home Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Home Medication Code">
+              <value xsi:type="CD" code="33252009" codeSystem="2.16.840.1.113883.6.96" displayName="Beta Blocker" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Prescribed">
+              <value xsi:type="CD" code="100013073" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="No" />
+            </element>
+          </section>
+          <section code="HOMEMEDS" displayName="Home Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Home Medication Code">
+              <value xsi:type="CD" code="613391" codeSystem="2.16.840.1.113883.6.88" displayName="Prasugrel" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Prescribed">
+              <value xsi:type="CD" code="100013073" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="No" />
+            </element>
+          </section>
+        </section>
+        <section code="ARVLMEDSIND" displayName="Arrival Medications">
+          <section code="ARVLMEDS" displayName="Arrival Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Arrival Medication Code">
+              <value xsi:type="CD" code="1191" codeSystem="2.16.840.1.113883.6.88" displayName="Aspirin" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Administered">
+              <value xsi:type="CD" code="100013073" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="No" />
+            </element>
+          </section>
+        </section>
+      </section>
+      <section code="LABS" displayName="Labs">
+        <section code="INITCREATININE" displayName="Initial Creatinine">
+          <element code="2160-0" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="PEAKCREATININE" displayName="Peak Creatinine">
+          <element code="2160-0" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="INITHB" displayName="Initial Hemoglobin">
+          <element code="718-7" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="ADDLLABS" displayName="Additional Labs">
+          <element code="112000000238" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="4548-4" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="34714-6" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="LIPIDS" displayName="Lipids">
+          <element code="2093-3" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="2085-9" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="2089-1" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="2571-8" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+      </section>
+      <section code="TXSTRATEGY" displayName="Treatment Strategy">
+        <section code="CATHLAB" displayName="Cath Lab Visit">
+          <element code="33367005" codeSystem="2.16.840.1.113883.6.96" displayName="Coronary Angiography">
+            <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+          </element>
+          <element code="1000142454" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="NUM" value="1234365478" />
+          </element>
+          <element code="1000142454" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="LN" value="ABBOT" />
+          </element>
+          <element code="1000142454" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="FN" value="Sean" />
+          </element>
+          <element code="1000142454" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="MN" value="mn6666" />
+          </element>
+          <element code="112000000200" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Cath Lab Arrival Date/Time">
+            <value xsi:type="TS" value="2025-04-04T10:30:00" />
+          </element>
+        </section>
+      </section>
+      <section code="EPISODEEVENTS" displayName="Episode Events">
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="49436004" codeSystem="2.16.840.1.113883.6.96" displayName="Atrial Fibrillation" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="1000142440" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Bleeding at Access Site" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="74474003" codeSystem="2.16.840.1.113883.6.96" displayName="Gastrointestinal Bleeding" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="417941003" codeSystem="2.16.840.1.113883.6.96" displayName="Genitourinary (GU) Bleed" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="385494008" codeSystem="2.16.840.1.113883.6.96" displayName="Hematoma at Access Site" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="1000142371" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Other Bleed" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="95549001" codeSystem="2.16.840.1.113883.6.96" displayName="Retroperitoneal Bleed" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="112000000213" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Surgical Procedure or Intervention Required for Bleeding Event" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="410429000" codeSystem="2.16.840.1.113883.6.96" displayName="Cardiac Arrest" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="89138009" codeSystem="2.16.840.1.113883.6.96" displayName="Cardiogenic Shock" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="84114007" codeSystem="2.16.840.1.113883.6.96" displayName="Heart Failure" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="22298006" codeSystem="2.16.840.1.113883.6.96" displayName="Myocardial Infarction" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="100014076" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="New Requirement for Dialysis" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="243142003" codeSystem="2.16.840.1.113883.6.96" displayName="Dual Pressure Spontaneous Ventilation Support" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="426854004" codeSystem="2.16.840.1.113883.6.96" displayName="High Flow Oxygen Nasal Cannula" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="52765003" codeSystem="2.16.840.1.113883.6.96" displayName="Intubation" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="230706003" codeSystem="2.16.840.1.113883.6.96" displayName="Hemorrhagic Stroke" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="422504002" codeSystem="2.16.840.1.113883.6.96" displayName="Ischemic Stroke" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="230713003" codeSystem="2.16.840.1.113883.6.96" displayName="Undetermined Stroke" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="266257000" codeSystem="2.16.840.1.113883.6.96" displayName="Transient Ischemic Attack (TIA)" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="71908006" codeSystem="2.16.840.1.113883.6.96" displayName="Ventricular fibrillation" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="25569003" codeSystem="2.16.840.1.113883.6.96" displayName="Ventricular Tachycardia" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+      </section>
+      <section code="DISCHARGE" displayName="Discharge">
+        <element code="1000142457" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Date/Time">
+          <value xsi:type="TS" value="2025-04-05T16:00:00" />
+        </element>
+        <element code="75527-2" codeSystem="2.16.840.1.113883.6.1" displayName="Discharge Status">
+          <value xsi:type="CD" code="438949009" codeSystem="2.16.840.1.113883.6.96" displayName="Alive" />
+        </element>
+        <section code="ADDLDC" displayName="Additional Discharge Details">
+          <element code="133918004" codeSystem="2.16.840.1.113883.6.96" displayName="Comfort Measures Only">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="385763009" codeSystem="2.16.840.1.113883.6.96" displayName="Hospice Care">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="100014067" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Cardiac Rehabilitation Referral">
+            <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+          </element>
+          <element code="75528-0" codeSystem="2.16.840.1.113883.6.1" displayName="Discharge Location">
+            <value xsi:type="CD" code="01" codeSystem="2.16.840.1.113883.12.112" displayName="Home" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="1191" codeSystem="2.16.840.1.113883.6.88" displayName="Aspirin" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="32968" codeSystem="2.16.840.1.113883.6.88" displayName="Clopidogrel" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="613391" codeSystem="2.16.840.1.113883.6.88" displayName="Prasugrel" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="1116632" codeSystem="2.16.840.1.113883.6.88" displayName="Ticagrelor" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="33252009" codeSystem="2.16.840.1.113883.6.96" displayName="Beta Blocker" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="41549009" codeSystem="2.16.840.1.113883.6.96" displayName="Angiotensin Converting Enzyme Inhibitor" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="372913009" codeSystem="2.16.840.1.113883.6.96" displayName="Angiotensin II Receptor Blocker" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="112000001832" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Angiotensin Receptor-Neprilysin Inhibitor" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="372603003" codeSystem="2.16.840.1.113883.6.96" displayName="Aldosterone Antagonist" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="112000001416" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Anticoagulant" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="11289" codeSystem="2.16.840.1.113883.6.88" displayName="Warfarin" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="96302009" codeSystem="2.16.840.1.113883.6.96" displayName="Statin" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+      </section>
+    </episode>
+  </patient>
+  <patient ncdrPatientId="9442381">
+    <section code="DEMOGRAPHICS" displayName="Demographics">
+      <element code="1000142463" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Last Name">
+        <value xsi:type="LN" value="Test_Qit" />
+      </element>
+      <element code="1000142463" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="First Name">
+        <value xsi:type="FN" value="Test_yug" />
+      </element>
+      <element code="2.16.840.1.113883.4.1" codeSystem="2.16.840.1.113883.4.1" displayName="SSN">
+        <value xsi:type="ST" value="111444494" />
+      </element>
+      <element code="2.16.840.1.113883.4.1" codeSystem="2.16.840.1.113883.4.1" displayName="SSN N/A">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="1000142447" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Birth Date">
+        <value xsi:type="DT" value="1995-05-16" />
+      </element>
+      <element code="1000142448" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Sex">
+        <value xsi:type="CD" code="F" codeSystem="2.16.840.1.113883.5.1" displayName="Female" />
+      </element>
+      <element code="1000142449" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Patient Zip Code">
+        <value xsi:type="ST" value="20010" />
+      </element>
+      <element code="1000142449" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Zip Code N/A">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="2106-3" codeSystem="2.16.840.1.113883.5.104" displayName="White">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="2054-5" codeSystem="2.16.840.1.113883.5.104" displayName="Black/African American">
+        <value xsi:type="BL" value="true" />
+      </element>
+      <element code="2028-9" codeSystem="2.16.840.1.113883.5.104" displayName="Asian">
+        <value xsi:type="BL" value="true" />
+      </element>
+      <element code="1002-5" codeSystem="2.16.840.1.113883.5.104" displayName="American Indian/Alaskan Native">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="2076-8" codeSystem="2.16.840.1.113883.5.104" displayName="Native Hawaiian/Pacific Islander">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="2135-2" codeSystem="2.16.840.1.113883.5.50" displayName="Hispanic or Latino Ethnicity">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="2.16.840.1.113883.3.3478.4.843" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Other ID">
+        <value xsi:type="ST" value="Test_OID" />
+      </element>
+    </section>
+    <episode episodeKey="ee22d29f-77ee-46cb-a71d-c12a5c0e7b89">
+      <section code="EPISODEOFCARE" displayName="Episode of Care">
+        <section code="EOCINFO" displayName="Episode Information">
+          <element code="1000142450" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Arrival Date/Time">
+            <value xsi:type="TS" value="2025-03-16T12:03:00" />
+          </element>
+          <element code="112000000162" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Admission Date/Time">
+            <value xsi:type="TS" value="2025-03-16T12:03:00" />
+          </element>
+          <section code="HEALTHINS" displayName="Health Insurance">
+            <element code="63513-6" codeSystem="2.16.840.1.113883.6.1" displayName="Health Insurance">
+              <value xsi:type="BL" value="true" />
+            </element>
+            <element code="100001072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Payment Source">
+              <value xsi:type="CD" code="5" codeSystem="2.16.840.1.113883.3.221.5" displayName="Private Health Insurance" />
+            </element>
+          </section>
+        </section>
+      </section>
+      <section code="DIAGISCD" displayName="Diagnosis and Intersystem Care Delivery">
+        <section code="DIAG" displayName="Diagnosis">
+          <element code="112000000214" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Patient Type">
+            <value xsi:type="CD" code="401303003" codeSystem="2.16.840.1.113883.6.96" displayName="Acute ST segment elevation myocardial infarction" />
+          </element>
+          <element code="112000000302" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Setting">
+            <value xsi:type="CD" code="112000000300" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Pre-Admit STEMI" />
+          </element>
+        </section>
+      </section>
+      <section code="HXANDRISKFACTORS" displayName="History and Risk Factors">
+        <element code="62914000" codeSystem="2.16.840.1.113883.6.96" displayName="Cerebrovascular Disease">
+          <value xsi:type="BL" value="false" />
+        </element>
+        <element code="108241001" codeSystem="2.16.840.1.113883.6.96" displayName="Dialysis">
+          <value xsi:type="BL" value="false" />
+        </element>
+        <element code="84114007" codeSystem="2.16.840.1.113883.6.96" displayName="Heart Failure">
+          <value xsi:type="BL" value="false" />
+        </element>
+        <element code="38341003" codeSystem="2.16.840.1.113883.6.96" displayName="Hypertension">
+          <value xsi:type="BL" value="false" />
+        </element>
+        <element code="73211009" codeSystem="2.16.840.1.113883.6.96" displayName="Diabetes Mellitus">
+          <value xsi:type="BL" value="false" />
+        </element>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="49436004" codeSystem="2.16.840.1.113883.6.96" displayName="Atrial Fibrillation" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="5370000" codeSystem="2.16.840.1.113883.6.96" displayName="Atrial Flutter" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="363346000" codeSystem="2.16.840.1.113883.6.96" displayName="Cancer" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="370992007" codeSystem="2.16.840.1.113883.6.96" displayName="Dyslipidemia" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="22298006" codeSystem="2.16.840.1.113883.6.96" displayName="Myocardial Infarction" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="399957001" codeSystem="2.16.840.1.113883.6.96" displayName="Peripheral Arterial Disease" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="PROCHX" displayName="Procedure History">
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Procedure History">
+            <value xsi:type="CD" code="232717009" codeSystem="2.16.840.1.113883.6.96" displayName="Coronary Artery Bypass Graft" />
+          </element>
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="PROCHX" displayName="Procedure History">
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Procedure History">
+            <value xsi:type="CD" code="415070008" codeSystem="2.16.840.1.113883.6.96" displayName="Percutaneous Coronary Intervention" />
+          </element>
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+      </section>
+      <section code="PTASSESS" displayName="Patient Assessment On Arrival">
+        <section code="CARDIACTN" displayName="Cardiac Troponin">
+          <element code="105000003" codeSystem="2.16.840.1.113883.6.96" displayName="Troponin Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+      </section>
+      <section code="MEDS" displayName="Medications">
+        <section code="HOMEMEDSIND" displayName="Home Medications">
+          <section code="HOMEMEDS" displayName="Home Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Home Medication Code">
+              <value xsi:type="CD" code="41549009" codeSystem="2.16.840.1.113883.6.96" displayName="Angiotensin Converting Enzyme Inhibitor" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Prescribed">
+              <value xsi:type="CD" code="100013073" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="No" />
+            </element>
+          </section>
+          <section code="HOMEMEDS" displayName="Home Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Home Medication Code">
+              <value xsi:type="CD" code="372913009" codeSystem="2.16.840.1.113883.6.96" displayName="Angiotensin II Receptor Blocker" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Prescribed">
+              <value xsi:type="CD" code="100013073" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="No" />
+            </element>
+          </section>
+          <section code="HOMEMEDS" displayName="Home Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Home Medication Code">
+              <value xsi:type="CD" code="33252009" codeSystem="2.16.840.1.113883.6.96" displayName="Beta Blocker" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Prescribed">
+              <value xsi:type="CD" code="100013073" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="No" />
+            </element>
+          </section>
+          <section code="HOMEMEDS" displayName="Home Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Home Medication Code">
+              <value xsi:type="CD" code="613391" codeSystem="2.16.840.1.113883.6.88" displayName="Prasugrel" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Prescribed">
+              <value xsi:type="CD" code="100013073" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="No" />
+            </element>
+          </section>
+        </section>
+        <section code="ARVLMEDSIND" displayName="Arrival Medications">
+          <section code="ARVLMEDS" displayName="Arrival Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Arrival Medication Code">
+              <value xsi:type="CD" code="1191" codeSystem="2.16.840.1.113883.6.88" displayName="Aspirin" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Administered">
+              <value xsi:type="CD" code="100013073" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="No" />
+            </element>
+          </section>
+        </section>
+      </section>
+      <section code="LABS" displayName="Labs">
+        <section code="INITCREATININE" displayName="Initial Creatinine">
+          <element code="2160-0" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="PEAKCREATININE" displayName="Peak Creatinine">
+          <element code="2160-0" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="INITHB" displayName="Initial Hemoglobin">
+          <element code="718-7" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="ADDLLABS" displayName="Additional Labs">
+          <element code="112000000238" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="4548-4" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="34714-6" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="LIPIDS" displayName="Lipids">
+          <element code="2093-3" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="2085-9" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="2089-1" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="2571-8" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+      </section>
+      <section code="TXSTRATEGY" displayName="Treatment Strategy">
+        <section code="CATHLAB" displayName="Cath Lab Visit">
+          <element code="33367005" codeSystem="2.16.840.1.113883.6.96" displayName="Coronary Angiography">
+            <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+          </element>
+          <element code="1000142454" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="NUM" value="1234365478" />
+          </element>
+          <element code="1000142454" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="LN" value="ABBOT" />
+          </element>
+          <element code="1000142454" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="FN" value="Sean" />
+          </element>
+          <element code="1000142454" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="MN" value="mn6666" />
+          </element>
+          <element code="112000000200" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Cath Lab Arrival Date/Time">
+            <value xsi:type="TS" value="2025-03-19T12:03:00" />
+          </element>
+        </section>
+      </section>
+      <section code="EPISODEEVENTS" displayName="Episode Events">
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="49436004" codeSystem="2.16.840.1.113883.6.96" displayName="Atrial Fibrillation" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="1000142440" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Bleeding at Access Site" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="74474003" codeSystem="2.16.840.1.113883.6.96" displayName="Gastrointestinal Bleeding" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="417941003" codeSystem="2.16.840.1.113883.6.96" displayName="Genitourinary (GU) Bleed" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="385494008" codeSystem="2.16.840.1.113883.6.96" displayName="Hematoma at Access Site" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="1000142371" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Other Bleed" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="95549001" codeSystem="2.16.840.1.113883.6.96" displayName="Retroperitoneal Bleed" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="112000000213" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Surgical Procedure or Intervention Required for Bleeding Event" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="410429000" codeSystem="2.16.840.1.113883.6.96" displayName="Cardiac Arrest" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="89138009" codeSystem="2.16.840.1.113883.6.96" displayName="Cardiogenic Shock" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="84114007" codeSystem="2.16.840.1.113883.6.96" displayName="Heart Failure" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="22298006" codeSystem="2.16.840.1.113883.6.96" displayName="Myocardial Infarction" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="100014076" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="New Requirement for Dialysis" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="243142003" codeSystem="2.16.840.1.113883.6.96" displayName="Dual Pressure Spontaneous Ventilation Support" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="426854004" codeSystem="2.16.840.1.113883.6.96" displayName="High Flow Oxygen Nasal Cannula" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="52765003" codeSystem="2.16.840.1.113883.6.96" displayName="Intubation" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="230706003" codeSystem="2.16.840.1.113883.6.96" displayName="Hemorrhagic Stroke" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="422504002" codeSystem="2.16.840.1.113883.6.96" displayName="Ischemic Stroke" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="230713003" codeSystem="2.16.840.1.113883.6.96" displayName="Undetermined Stroke" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="266257000" codeSystem="2.16.840.1.113883.6.96" displayName="Transient Ischemic Attack (TIA)" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="71908006" codeSystem="2.16.840.1.113883.6.96" displayName="Ventricular fibrillation" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="25569003" codeSystem="2.16.840.1.113883.6.96" displayName="Ventricular Tachycardia" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+      </section>
+      <section code="DISCHARGE" displayName="Discharge">
+        <element code="1000142457" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Date/Time">
+          <value xsi:type="TS" value="2025-04-06T12:04:00" />
+        </element>
+        <element code="75527-2" codeSystem="2.16.840.1.113883.6.1" displayName="Discharge Status">
+          <value xsi:type="CD" code="438949009" codeSystem="2.16.840.1.113883.6.96" displayName="Alive" />
+        </element>
+        <section code="ADDLDC" displayName="Additional Discharge Details">
+          <element code="133918004" codeSystem="2.16.840.1.113883.6.96" displayName="Comfort Measures Only">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="385763009" codeSystem="2.16.840.1.113883.6.96" displayName="Hospice Care">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="100014067" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Cardiac Rehabilitation Referral">
+            <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+          </element>
+          <element code="75528-0" codeSystem="2.16.840.1.113883.6.1" displayName="Discharge Location">
+            <value xsi:type="CD" code="01" codeSystem="2.16.840.1.113883.12.112" displayName="Home" />
+          </element>
+        </section>
+      </section>
+    </episode>
+  </patient>
+  <patient ncdrPatientId="9442385">
+    <section code="DEMOGRAPHICS" displayName="Demographics">
+      <element code="1000142463" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Last Name">
+        <value xsi:type="LN" value="Test_LN_CPMI_v3.1_105_stg" />
+      </element>
+      <element code="1000142463" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="First Name">
+        <value xsi:type="FN" value="Test_FN_CPMI_v3.1_105_stg" />
+      </element>
+      <element code="1000142463" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Middle Name">
+        <value xsi:type="MN" value="Test_MN_CPMI_v3.1_105_stg" />
+      </element>
+      <element code="2.16.840.1.113883.4.1" codeSystem="2.16.840.1.113883.4.1" displayName="SSN N/A">
+        <value xsi:type="BL" value="true" />
+      </element>
+      <element code="1000142447" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Birth Date">
+        <value xsi:type="DT" value="1975-12-31" />
+      </element>
+      <element code="1000142448" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Sex">
+        <value xsi:type="CD" code="M" codeSystem="2.16.840.1.113883.5.1" displayName="Male" />
+      </element>
+      <element code="1000142449" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Patient Zip Code">
+        <value xsi:type="ST" value="20037" />
+      </element>
+      <element code="1000142449" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Zip Code N/A">
+        <value xsi:type="BL" value="false" />
+      </element>
+      <element code="2106-3" codeSystem="2.16.840.1.113883.5.104" displayName="White">
+        <value xsi:type="BL" value="true" />
+      </element>
+      <element code="2054-5" codeSystem="2.16.840.1.113883.5.104" displayName="Black/African American">
+        <value xsi:type="BL" value="true" />
+      </element>
+      <element code="2028-9" codeSystem="2.16.840.1.113883.5.104" displayName="Asian">
+        <value xsi:type="BL" value="true" />
+      </element>
+      <element code="1002-5" codeSystem="2.16.840.1.113883.5.104" displayName="American Indian/Alaskan Native">
+        <value xsi:type="BL" value="true" />
+      </element>
+      <element code="2076-8" codeSystem="2.16.840.1.113883.5.104" displayName="Native Hawaiian/Pacific Islander">
+        <value xsi:type="BL" value="true" />
+      </element>
+      <element code="2135-2" codeSystem="2.16.840.1.113883.5.50" displayName="Hispanic or Latino Ethnicity">
+        <value xsi:type="BL" value="true" />
+      </element>
+      <element code="2.16.840.1.113883.3.3478.4.843" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Other ID">
+        <value xsi:type="ST" value="Test2045" />
+      </element>
+    </section>
+    <episode episodeKey="3e345000-0a23-4a0c-a0bb-b9012918dfb3">
+      <section code="EPISODEOFCARE" displayName="Episode of Care">
+        <section code="EOCINFO" displayName="Episode Information">
+          <element code="1000142450" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Arrival Date/Time">
+            <value xsi:type="TS" value="2025-04-15T09:15:00" />
+          </element>
+          <element code="112000000162" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Admission Date/Time">
+            <value xsi:type="TS" value="2025-04-15T09:35:00" />
+          </element>
+          <section code="EDPRO" displayName="ED Professionals">
+            <element code="112000000145" codeSystem="2.16.840.1.113883.3.3478.6.1">
+              <value xsi:type="NUM" value="1811990948" />
+            </element>
+            <element code="112000000145" codeSystem="2.16.840.1.113883.3.3478.6.1">
+              <value xsi:type="LN" value="BOYER" />
+            </element>
+            <element code="112000000145" codeSystem="2.16.840.1.113883.3.3478.6.1">
+              <value xsi:type="FN" value="DEW" />
+            </element>
+          </section>
+          <section code="ADMITPRO" displayName="Admitting Professional">
+            <element code="1000142451" codeSystem="2.16.840.1.113883.3.3478.6.1">
+              <value xsi:type="NUM" value="1811990948" />
+            </element>
+            <element code="1000142451" codeSystem="2.16.840.1.113883.3.3478.6.1">
+              <value xsi:type="LN" value="BOYER" />
+            </element>
+            <element code="1000142451" codeSystem="2.16.840.1.113883.3.3478.6.1">
+              <value xsi:type="FN" value="DEW" />
+            </element>
+          </section>
+          <section code="ATTPRO" displayName="Attending Professionals">
+            <element code="1000142452" codeSystem="2.16.840.1.113883.3.3478.6.1">
+              <value xsi:type="NUM" value="1811990948" />
+            </element>
+            <element code="1000142452" codeSystem="2.16.840.1.113883.3.3478.6.1">
+              <value xsi:type="LN" value="BOYER" />
+            </element>
+            <element code="1000142452" codeSystem="2.16.840.1.113883.3.3478.6.1">
+              <value xsi:type="FN" value="DEW" />
+            </element>
+          </section>
+          <section code="HEALTHINS" displayName="Health Insurance">
+            <element code="63513-6" codeSystem="2.16.840.1.113883.6.1" displayName="Health Insurance">
+              <value xsi:type="BL" value="true" />
+            </element>
+            <element code="100001072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Payment Source">
+              <value xsi:type="CD" code="5" codeSystem="2.16.840.1.113883.3.221.5" displayName="Private Health Insurance" />
+              <value xsi:type="CD" code="36" codeSystem="2.16.840.1.113883.3.221.5" displayName="State-Specific Plan (non-Medicaid)" />
+              <value xsi:type="CD" code="1" codeSystem="2.16.840.1.113883.3.221.5" displayName="Medicare  " />
+              <value xsi:type="CD" code="112000002025" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Medicare Advantage Plan" />
+              <value xsi:type="CD" code="2" codeSystem="2.16.840.1.113883.3.221.5" displayName="Medicaid" />
+            </element>
+            <element code="2.16.840.1.113883.4.927" codeSystem="2.16.840.1.113883.4.927" displayName="Medicare Beneficiary Identifier (MBI)">
+              <value xsi:type="ST" value="Test12846" />
+            </element>
+          </section>
+        </section>
+      </section>
+      <section code="DIAGISCD" displayName="Diagnosis and Intersystem Care Delivery">
+        <section code="DIAG" displayName="Diagnosis">
+          <element code="112000000214" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Patient Type">
+            <value xsi:type="CD" code="401303003" codeSystem="2.16.840.1.113883.6.96" displayName="Acute ST segment elevation myocardial infarction" />
+          </element>
+          <element code="112000000302" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Setting">
+            <value xsi:type="CD" code="112000000300" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Pre-Admit STEMI" />
+          </element>
+          <element code="112000003582" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Non-Thrombotic Mechanisms Present">
+            <value xsi:type="CD" code="264511000" codeSystem="2.16.840.1.113883.6.96" displayName="Coronary embolism" />
+            <value xsi:type="CD" code="263924000" codeSystem="2.16.840.1.113883.6.96" displayName="Coronary vasospasm" />
+            <value xsi:type="CD" code="197364005" codeSystem="2.16.840.1.113883.6.96" displayName="Spontaneous coronary artery dissection" />
+            <value xsi:type="CD" code="441541008" codeSystem="2.16.840.1.113883.6.96" displayName="Takotsubo Cardiomyopathy" />
+          </element>
+        </section>
+        <section code="INTERSYSCARE" displayName="Intersystem Care Delivery">
+          <element code="112000000131" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Means of Transport to First Facility">
+            <value xsi:type="CD" code="112000000255" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Ambulance Transport" />
+          </element>
+          <element code="112000003560" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Call to 911 Date/Time">
+            <value xsi:type="TS" value="2025-04-15T07:00:00" />
+          </element>
+          <element code="112000000142" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Dispatch Date/Time">
+            <value xsi:type="TS" value="2025-04-15T07:05:00" />
+          </element>
+          <element code="112000000141" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="First Medical Contact Date/Time">
+            <value xsi:type="TS" value="2025-04-15T07:10:00" />
+          </element>
+          <element code="112000000143" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Leaving Scene Date/Time">
+            <value xsi:type="TS" value="2025-04-15T07:15:00" />
+          </element>
+          <element code="112000000258" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Patient Centered Reason for Delay to EMS Departure">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="112000000144" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="STEMI Activation Alert">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="112000000144" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="STEMI Alert Date/Time">
+            <value xsi:type="TS" value="2025-04-15T07:20:00" />
+          </element>
+          <element code="112000000132" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Emergency Medical Services Agency Number">
+            <value xsi:type="NUM" value="1629071758" />
+          </element>
+          <element code="112000000133" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Run Number">
+            <value xsi:type="ST" value="Test12190" />
+          </element>
+          <element code="112000000259" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Transferred From Outside Facility">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="112000000261" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Arrival at Outside Facility Date/Time">
+            <value xsi:type="TS" value="2025-04-15T07:25:00" />
+          </element>
+          <element code="112000000259" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Transfer From Outside Facility Date/Time">
+            <value xsi:type="TS" value="2025-04-15T07:30:00" />
+          </element>
+          <element code="19712007" codeSystem="2.16.840.1.113883.6.96" displayName="Patient Centered Reason for Delay to Transfer">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="112000000106" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Transferring Facility American Hospital Association Number">
+            <value xsi:type="ST" value="6040007" />
+          </element>
+          <element code="112000000604" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Transferring Facility American Hospital Association Name">
+            <value xsi:type="ST" value="Hospital Manati Medical Center" />
+          </element>
+          <element code="112000000604" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Same ID as Parent Facility">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="112000000106" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Unavailable">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="CARDIACARREST" displayName="Cardiac Arrest">
+          <element code="10001424808" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Cardiac Arrest Out of Healthcare Facility">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="100014082" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Arrest Witnessed">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="112000000186" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Bystander CPR">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="100014081" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Arrest After Arrival of EMS">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="100014013" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="First Cardiac Arrest Rhythm">
+            <value xsi:type="CD" code="100013035" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Shockable" />
+          </element>
+          <element code="100014013" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Rhythm Unknown">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="439569004" codeSystem="2.16.840.1.113883.6.96" displayName="Resuscitation Date/Time">
+            <value xsi:type="TS" value="2025-04-15T07:35:00" />
+          </element>
+          <element code="439569004" codeSystem="2.16.840.1.113883.6.96" displayName="Unknown">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="100014016" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Cardiac Arrest at Transferring Healthcare Facility">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="418107008" codeSystem="2.16.840.1.113883.6.96" displayName="Unconscious">
+            <value xsi:type="BL" value="true" />
+          </element>
+        </section>
+      </section>
+      <section code="HXANDRISKFACTORS" displayName="History and Risk Factors">
+        <element code="8302-2" codeSystem="2.16.840.1.113883.6.1" displayName="Height">
+          <value xsi:type="PQ" value="175" unit="cm" />
+        </element>
+        <element code="3141-9" codeSystem="2.16.840.1.113883.6.1" displayName="Weight">
+          <value xsi:type="PQ" value="75" unit="kg" />
+        </element>
+        <element code="62914000" codeSystem="2.16.840.1.113883.6.96" displayName="Cerebrovascular Disease">
+          <value xsi:type="BL" value="true" />
+        </element>
+        <element code="108241001" codeSystem="2.16.840.1.113883.6.96" displayName="Dialysis">
+          <value xsi:type="BL" value="true" />
+        </element>
+        <element code="230690007" codeSystem="2.16.840.1.113883.6.96" displayName="Stroke">
+          <value xsi:type="BL" value="true" />
+        </element>
+        <element code="84114007" codeSystem="2.16.840.1.113883.6.96" displayName="Heart Failure">
+          <value xsi:type="BL" value="true" />
+        </element>
+        <element code="266257000" codeSystem="2.16.840.1.113883.6.96" displayName="TIA">
+          <value xsi:type="BL" value="true" />
+        </element>
+        <element code="38341003" codeSystem="2.16.840.1.113883.6.96" displayName="Hypertension">
+          <value xsi:type="BL" value="true" />
+        </element>
+        <element code="73211009" codeSystem="2.16.840.1.113883.6.96" displayName="Diabetes Mellitus">
+          <value xsi:type="BL" value="true" />
+        </element>
+        <element code="110483000" codeSystem="2.16.840.1.113883.6.96" displayName="Tobacco Use">
+          <value xsi:type="CD" code="112000003599" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Current Smoker" />
+        </element>
+        <element code="722499006" codeSystem="2.16.840.1.113883.6.96" displayName="e-Cigarette Use">
+          <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+        </element>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="49436004" codeSystem="2.16.840.1.113883.6.96" displayName="Atrial Fibrillation" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="true" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="5370000" codeSystem="2.16.840.1.113883.6.96" displayName="Atrial Flutter" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="true" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="363346000" codeSystem="2.16.840.1.113883.6.96" displayName="Cancer" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="true" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="370992007" codeSystem="2.16.840.1.113883.6.96" displayName="Dyslipidemia" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="true" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="22298006" codeSystem="2.16.840.1.113883.6.96" displayName="Myocardial Infarction" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="true" />
+          </element>
+        </section>
+        <section code="CONDHX" displayName="Condition History">
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Condition History">
+            <value xsi:type="CD" code="399957001" codeSystem="2.16.840.1.113883.6.96" displayName="Peripheral Arterial Disease" />
+          </element>
+          <element code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="true" />
+          </element>
+        </section>
+        <section code="CONDHXDET" displayName="Condition History Details">
+          <element code="225365006" codeSystem="2.16.840.1.113883.6.96" displayName="Treatment">
+            <value xsi:type="CD" code="243125009" codeSystem="2.16.840.1.113883.6.96" displayName="Estrogen Hormone Therapy" />
+          </element>
+        </section>
+        <section code="PROCHX" displayName="Procedure History">
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Procedure History">
+            <value xsi:type="CD" code="232717009" codeSystem="2.16.840.1.113883.6.96" displayName="Coronary Artery Bypass Graft" />
+          </element>
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Date">
+            <value xsi:type="DT" value="2025-04-15" />
+          </element>
+        </section>
+        <section code="PROCHX" displayName="Procedure History">
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Procedure History">
+            <value xsi:type="CD" code="415070008" codeSystem="2.16.840.1.113883.6.96" displayName="Percutaneous Coronary Intervention" />
+          </element>
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Occurrence">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="416940007" codeSystem="2.16.840.1.113883.6.96" displayName="Date">
+            <value xsi:type="DT" value="2025-04-15" />
+          </element>
+        </section>
+      </section>
+      <section code="PTASSESS" displayName="Patient Assessment On Arrival">
+        <element code="112000000163" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Location of First Evaluation">
+          <value xsi:type="CD" code="112000000164" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Emergency Department" />
+        </element>
+        <element code="8867-4" codeSystem="2.16.840.1.113883.6.1" displayName="Heart Rate">
+          <value xsi:type="PQ" value="110" unit="bpm" />
+        </element>
+        <element code="8480-6" codeSystem="2.16.840.1.113883.6.1" displayName="Systolic BP">
+          <value xsi:type="PQ" value="110" unit="mm[Hg]" />
+        </element>
+        <element code="89138009" codeSystem="2.16.840.1.113883.6.96" displayName="Cardiogenic Shock">
+          <value xsi:type="BL" value="true" />
+        </element>
+        <element code="84114007" codeSystem="2.16.840.1.113883.6.96" displayName="Heart Failure ">
+          <value xsi:type="BL" value="true" />
+        </element>
+        <element code="1000142381" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="CSHA Clinical Frailty Scale*">
+          <value xsi:type="CD" code="1000142382" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="CSHA Clinical Frailty Scale 1: Very Fit" />
+        </element>
+        <element code="29857009" codeSystem="2.16.840.1.113883.6.96" displayName="Chest Pain Symptoms">
+          <value xsi:type="CD" code="288556008" codeSystem="2.16.840.1.113883.6.96" displayName="Before" />
+        </element>
+        <element code="100013003" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Date (prior to arrival)">
+          <value xsi:type="DT" value="2025-04-15" />
+        </element>
+        <element code="100013004" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Time (prior to arrival)">
+          <value xsi:type="TM" value="07:35:00.0000000-04:00" />
+        </element>
+        <element code="112000003535" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Time Unknown">
+          <value xsi:type="BL" value="false" />
+        </element>
+        <section code="ELECTROCARDIO" displayName="Electrocardiogram">
+          <element code="112000000187" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Electrocardiogram Counter">
+            <value xsi:type="CTR" value="1" />
+          </element>
+          <element code="164847006" codeSystem="2.16.840.1.113883.6.96" displayName="ECG Date/Time">
+            <value xsi:type="TS" value="2025-04-15T08:00:00" />
+          </element>
+          <element code="363109007" codeSystem="2.16.840.1.113883.6.96" displayName="ECG Read Date/Time">
+            <value xsi:type="TS" value="2025-04-15T08:05:00" />
+          </element>
+          <element code="100000180" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="STEMI or STEMI Equivalent ">
+            <value xsi:type="BL" value="true" />
+          </element>
+        </section>
+        <section code="CARDIACTN" displayName="Cardiac Troponin">
+          <element code="105000003" codeSystem="2.16.840.1.113883.6.96" displayName="Troponin Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="105000003" codeSystem="2.16.840.1.113883.6.96" displayName="Troponin Protocol">
+            <value xsi:type="CD" code="401303003" codeSystem="2.16.840.1.113883.6.96" displayName="Acute ST segment elevation myocardial infarction" />
+          </element>
+          <section code="TROPONIN" displayName="Troponin">
+            <element code="112000000185" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Troponin Counter">
+              <value xsi:type="CTR" value="1" />
+            </element>
+            <element code="112000000185" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Troponin Collected Date/Time">
+              <value xsi:type="TS" value="2025-04-15T08:10:00" />
+            </element>
+            <element code="112000000237" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Troponin Resulted Date/Time">
+              <value xsi:type="TS" value="2025-04-15T08:15:00" />
+            </element>
+            <element code="112000000386" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Troponin Test">
+              <value xsi:type="CD" code="112000000387" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Laboratory" />
+            </element>
+            <element code="112000000234" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Lab Troponin Assay and URL">
+              <value xsi:type="CD" code="5071" codeSystem="2.16.840.1.113883.3.3478.6.1.103" displayName="ARCHITECT i systems/ ARCHITECT STAT hs TnI (male) (EDTA) (35)" />
+            </element>
+            <element code="105000003" codeSystem="2.16.840.1.113883.6.96" displayName="Troponin Value">
+              <value xsi:type="PQ" value="1000" unit="ng/L" />
+            </element>
+          </section>
+          <section code="TROPONIN" displayName="Troponin">
+            <element code="112000000185" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Troponin Counter">
+              <value xsi:type="CTR" value="2" />
+            </element>
+            <element code="112000000185" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Troponin Collected Date/Time">
+              <value xsi:type="TS" value="2025-04-15T08:20:00" />
+            </element>
+            <element code="112000000237" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Troponin Resulted Date/Time">
+              <value xsi:type="TS" value="2025-04-15T08:25:00" />
+            </element>
+            <element code="112000000386" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Troponin Test">
+              <value xsi:type="CD" code="112000000388" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Point of Care" />
+            </element>
+            <element code="112000000385" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="POC Troponin Assay and URL">
+              <value xsi:type="CD" code="5331" codeSystem="2.16.840.1.113883.3.3478.6.1.102" displayName="Alinity i STAT High Sensitivity Tropnin-I (overall)(plasma) (27)" />
+            </element>
+            <element code="105000003" codeSystem="2.16.840.1.113883.6.96" displayName="Troponin Value">
+              <value xsi:type="PQ" value="1000" unit="ng/L" />
+            </element>
+          </section>
+        </section>
+        <section code="CATHLABACT" displayName="Cath Lab Activation">
+          <element code="112000000210" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Cath Lab Activated">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="112000000210" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Cath Lab Activation Date/Time">
+            <value xsi:type="TS" value="2025-04-15T08:30:00" />
+          </element>
+          <element code="112000003574" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Activation Initiated by">
+            <value xsi:type="CD" code="394579002" codeSystem="2.16.840.1.113883.6.96" displayName="Cardiology" />
+          </element>
+          <element code="415070008" codeSystem="2.16.840.1.113883.6.96" displayName="PCI Operator Arrival Date/Time">
+            <value xsi:type="TS" value="2025-04-15T08:35:00" />
+          </element>
+          <element code="41976001" codeSystem="2.16.840.1.113883.6.96" displayName="Cath Lab Staff Arrival Date/Time">
+            <value xsi:type="TS" value="2025-04-15T08:40:00" />
+          </element>
+          <element code="112000000239" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Cath Lab Activation Cancelled">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="112000003575" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Activation Cancelled by">
+            <value xsi:type="CD" code="394579002" codeSystem="2.16.840.1.113883.6.96" displayName="Cardiology" />
+          </element>
+        </section>
+      </section>
+      <section code="PTEVAL" displayName="Patient Evaluation">
+        <section code="EDDISP" displayName="Emergency Department Disposition">
+          <element code="112000000220" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Emergency Department Disposition">
+            <value xsi:type="CD" code="440654001" codeSystem="2.16.840.1.113883.6.96" displayName="Inpatient environment" />
+          </element>
+          <element code="112000000219" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Transfer Out Date/Time">
+            <value xsi:type="TS" value="2025-04-15T09:40:00" />
+          </element>
+        </section>
+      </section>
+      <section code="MEDS" displayName="Medications">
+        <section code="HOMEMEDSIND" displayName="Home Medications">
+          <section code="HOMEMEDS" displayName="Home Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Home Medication Code">
+              <value xsi:type="CD" code="41549009" codeSystem="2.16.840.1.113883.6.96" displayName="Angiotensin Converting Enzyme Inhibitor" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Prescribed">
+              <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+            </element>
+          </section>
+          <section code="HOMEMEDS" displayName="Home Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Home Medication Code">
+              <value xsi:type="CD" code="372913009" codeSystem="2.16.840.1.113883.6.96" displayName="Angiotensin II Receptor Blocker" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Prescribed">
+              <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+            </element>
+          </section>
+          <section code="HOMEMEDS" displayName="Home Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Home Medication Code">
+              <value xsi:type="CD" code="33252009" codeSystem="2.16.840.1.113883.6.96" displayName="Beta Blocker" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Prescribed">
+              <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+            </element>
+          </section>
+          <section code="HOMEMEDS" displayName="Home Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Home Medication Code">
+              <value xsi:type="CD" code="613391" codeSystem="2.16.840.1.113883.6.88" displayName="Prasugrel" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Prescribed">
+              <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+            </element>
+          </section>
+        </section>
+        <section code="ARVLMEDSIND" displayName="Arrival Medications">
+          <section code="ARVLMEDS" displayName="Arrival Medications">
+            <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Arrival Medication Code">
+              <value xsi:type="CD" code="1191" codeSystem="2.16.840.1.113883.6.88" displayName="Aspirin" />
+            </element>
+            <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Medication Administered">
+              <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+            </element>
+          </section>
+        </section>
+      </section>
+      <section code="LABS" displayName="Labs">
+        <section code="INITCREATININE" displayName="Initial Creatinine">
+          <element code="2160-0" codeSystem="2.16.840.1.113883.6.1" displayName="Initial Creatinine Value">
+            <value xsi:type="PQ" value="1.3" unit="mg/dL" />
+          </element>
+          <element code="2160-0" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="PEAKCREATININE" displayName="Peak Creatinine">
+          <element code="2160-0" codeSystem="2.16.840.1.113883.6.1" displayName="Peak Creatinine Value">
+            <value xsi:type="PQ" value="1.3" unit="mg/dL" />
+          </element>
+          <element code="2160-0" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="2160-0" codeSystem="2.16.840.1.113883.6.1" displayName="Date/Time">
+            <value xsi:type="TS" value="2025-04-15T07:55:00" />
+          </element>
+        </section>
+        <section code="INITHB" displayName="Initial Hemoglobin">
+          <element code="718-7" codeSystem="2.16.840.1.113883.6.1" displayName="Initial Hemoglobin Value">
+            <value xsi:type="PQ" value="10" unit="g/dL" />
+          </element>
+          <element code="718-7" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="ADDLLABS" displayName="Additional Labs">
+          <element code="718-7" codeSystem="2.16.840.1.113883.6.1" displayName="Lowest Hemoglobin Value">
+            <value xsi:type="PQ" value="10" unit="g/dL" />
+          </element>
+          <element code="112000000238" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="718-7" codeSystem="2.16.840.1.113883.6.1" displayName="Date/Time">
+            <value xsi:type="TS" value="2025-04-15T08:00:00" />
+          </element>
+          <element code="4548-4" codeSystem="2.16.840.1.113883.6.1" displayName="Initial Hemoglobin A1c Value">
+            <value xsi:type="PQ" value="6" unit="%" />
+          </element>
+          <element code="4548-4" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="34714-6" codeSystem="2.16.840.1.113883.6.1" displayName="Initial INR Value">
+            <value xsi:type="PQ" value="4" unit="** unknown **" />
+          </element>
+          <element code="34714-6" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="LIPIDS" displayName="Lipids">
+          <element code="2093-3" codeSystem="2.16.840.1.113883.6.1" displayName="Total Cholesterol">
+            <value xsi:type="PQ" value="100" unit="mg/dL" />
+          </element>
+          <element code="2093-3" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="2085-9" codeSystem="2.16.840.1.113883.6.1" displayName="HDL">
+            <value xsi:type="PQ" value="100" unit="mg/dL" />
+          </element>
+          <element code="2085-9" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="2089-1" codeSystem="2.16.840.1.113883.6.1" displayName="LDL">
+            <value xsi:type="PQ" value="100" unit="mg/dL" />
+          </element>
+          <element code="2089-1" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="2571-8" codeSystem="2.16.840.1.113883.6.1" displayName="Triglycerides">
+            <value xsi:type="PQ" value="100" unit="mg/dL" />
+          </element>
+          <element code="2571-8" codeSystem="2.16.840.1.113883.6.1" displayName="Not Drawn">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+      </section>
+      <section code="TXSTRATEGY" displayName="Treatment Strategy">
+        <section code="CATHLAB" displayName="Cath Lab Visit">
+          <element code="33367005" codeSystem="2.16.840.1.113883.6.96" displayName="Coronary Angiography">
+            <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+          </element>
+          <element code="1000142454" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="NUM" value="1112223334" />
+          </element>
+          <element code="1000142454" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="LN" value="AAAaaaaaaa" />
+          </element>
+          <element code="1000142454" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="FN" value="AAaaaaaa1" />
+          </element>
+          <element code="1000142454" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="MN" value="mn6666" />
+          </element>
+          <element code="112000000200" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Cath Lab Arrival Date/Time">
+            <value xsi:type="TS" value="2025-04-15T09:55:00" />
+          </element>
+          <element code="33367005" codeSystem="2.16.840.1.113883.6.96" displayName="Angiography Date/Time">
+            <value xsi:type="TS" value="2025-04-15T10:00:00" />
+          </element>
+          <element code="419391003" codeSystem="2.16.840.1.113883.6.96" displayName="Resuscitated pre-admit STEMI Patient Centered Reason for Delay in Angiography">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="365853002:418775008=77343006" codeSystem="2.16.840.1.113883.6.96" displayName="Results">
+            <value xsi:type="CD" code="53741008" codeSystem="2.16.840.1.113883.6.96" displayName="Coronary Artery Disease" />
+          </element>
+          <element code="53741008" codeSystem="2.16.840.1.113883.6.96" displayName="Type">
+            <value xsi:type="CD" code="112000003539" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Moderate Coronary Artery Disease" />
+          </element>
+        </section>
+        <section code="REPERFSN" displayName="Reperfusion">
+          <element code="307521008" codeSystem="2.16.840.1.113883.6.96" displayName="Thrombolytic">
+            <value xsi:type="CD" code="112000000195" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="No - No Reason" />
+          </element>
+          <element code="415070008" codeSystem="2.16.840.1.113883.6.96" displayName="PCI">
+            <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+          </element>
+          <element code="232717009" codeSystem="2.16.840.1.113883.6.96" displayName="CABG">
+            <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+          </element>
+          <element code="232717009" codeSystem="2.16.840.1.113883.6.96" displayName="Date/Time">
+            <value xsi:type="TS" value="2025-04-15T10:05:00" />
+          </element>
+        </section>
+        <section code="PCIPROC" displayName="PCI Procedure">
+          <element code="415070008" codeSystem="2.16.840.1.113883.6.96" displayName="PCI Start Date/Time">
+            <value xsi:type="TS" value="2025-04-15T10:10:00" />
+          </element>
+          <element code="1000142455" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="NUM" value="1234365478" />
+          </element>
+          <element code="1000142455" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="LN" value="ABBOT" />
+          </element>
+          <element code="1000142455" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="FN" value="Sean" />
+          </element>
+          <element code="1000142455" codeSystem="2.16.840.1.113883.3.3478.6.1">
+            <value xsi:type="MN" value="mn6666" />
+          </element>
+          <element code="112000003534" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Fellow Operator">
+            <value xsi:type="NUM" value="1295889665" />
+          </element>
+          <element code="112000003534" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Fellow Operator">
+            <value xsi:type="LN" value="'ANDERSON" />
+          </element>
+          <element code="112000003534" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Fellow Operator">
+            <value xsi:type="FN" value="VERA" />
+          </element>
+          <element code="112000003534" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Fellow Operator">
+            <value xsi:type="MN" value="ROSE" />
+          </element>
+          <element code="224873004" codeSystem="2.16.840.1.113883.6.96" displayName="Training Center">
+            <value xsi:type="ST" value="1520121135" />
+          </element>
+          <element code="100000880" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="PCI Indication">
+            <value xsi:type="CD" code="100000570" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Primary PCI for Acute STEMI" />
+          </element>
+          <element code="100014009" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Mechanical Ventricular Support">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="100001278" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Device">
+            <value xsi:type="CD" code="1000142428" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Cardiopulmonary Support (CPS)" />
+          </element>
+          <element code="100014079" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Arterial Access Site">
+            <value xsi:type="CD" code="7657000" codeSystem="2.16.840.1.113883.6.96" displayName="Femoral Artery" />
+          </element>
+          <element code="36969009" codeSystem="2.16.840.1.113883.6.96" displayName="Stent Placed">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="100000856" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Stent Type">
+            <value xsi:type="CD" code="464052002" codeSystem="2.16.840.1.113883.6.96" displayName="Bare-metal coronary artery stent" />
+          </element>
+          <element code="100000856" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Unknown">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="PCIACUTESTEMI" displayName="PCI for Acute STEMI">
+          <element code="401303003" codeSystem="2.16.840.1.113883.6.96" displayName="STEMI (or Equivalent) Noted on First ECG">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="100012993" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="First Device Activation Date and Time">
+            <value xsi:type="TS" value="2025-04-15T10:15:00" />
+          </element>
+          <element code="100013002" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Patient Centered Reason for Delay in PCI">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="100013000" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Reason">
+            <value xsi:type="CD" code="100000881" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Difficult Vascular Access" />
+          </element>
+        </section>
+      </section>
+      <section code="EPISODEEVENTS" displayName="Episode Events">
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="49436004" codeSystem="2.16.840.1.113883.6.96" displayName="Atrial Fibrillation" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="1000142440" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Bleeding at Access Site" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="74474003" codeSystem="2.16.840.1.113883.6.96" displayName="Gastrointestinal Bleeding" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="417941003" codeSystem="2.16.840.1.113883.6.96" displayName="Genitourinary (GU) Bleed" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="385494008" codeSystem="2.16.840.1.113883.6.96" displayName="Hematoma at Access Site" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="1000142371" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Other Bleed" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="95549001" codeSystem="2.16.840.1.113883.6.96" displayName="Retroperitoneal Bleed" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="112000000213" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Surgical Procedure or Intervention Required for Bleeding Event" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="410429000" codeSystem="2.16.840.1.113883.6.96" displayName="Cardiac Arrest" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="89138009" codeSystem="2.16.840.1.113883.6.96" displayName="Cardiogenic Shock" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="84114007" codeSystem="2.16.840.1.113883.6.96" displayName="Heart Failure" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="22298006" codeSystem="2.16.840.1.113883.6.96" displayName="Myocardial Infarction" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="100014076" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="New Requirement for Dialysis" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="243142003" codeSystem="2.16.840.1.113883.6.96" displayName="Dual Pressure Spontaneous Ventilation Support" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="426854004" codeSystem="2.16.840.1.113883.6.96" displayName="High Flow Oxygen Nasal Cannula" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="52765003" codeSystem="2.16.840.1.113883.6.96" displayName="Intubation" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="230706003" codeSystem="2.16.840.1.113883.6.96" displayName="Hemorrhagic Stroke" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="422504002" codeSystem="2.16.840.1.113883.6.96" displayName="Ischemic Stroke" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="230713003" codeSystem="2.16.840.1.113883.6.96" displayName="Undetermined Stroke" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="266257000" codeSystem="2.16.840.1.113883.6.96" displayName="Transient Ischemic Attack (TIA)" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="71908006" codeSystem="2.16.840.1.113883.6.96" displayName="Ventricular fibrillation" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="EVENTS" displayName="Events">
+          <element code="1000142478" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s)">
+            <value xsi:type="CD" code="25569003" codeSystem="2.16.840.1.113883.6.96" displayName="Ventricular Tachycardia" />
+          </element>
+          <element code="1000142479" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Event(s) Occurred">
+            <value xsi:type="BL" value="false" />
+          </element>
+        </section>
+        <section code="ADDLEVENTS" displayName="Additional Events">
+          <element code="71493000" codeSystem="2.16.840.1.113883.6.96" displayName="RBC Transfusion">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="71493000" codeSystem="2.16.840.1.113883.6.96" displayName="Transfusion Date">
+            <value xsi:type="DT" value="2025-04-15" />
+          </element>
+          <element code="112000000212" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="CABG Related Transfusion">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="713443004" codeSystem="2.16.840.1.113883.6.96" displayName="NSAID Administered">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="112000001735" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Medical Reason for Administering NSAID">
+            <value xsi:type="BL" value="true" />
+          </element>
+        </section>
+        <section code="TTM" displayName="Targeted Temperature Management">
+          <element code="308693008" codeSystem="2.16.840.1.113883.6.96" displayName="Temperature Management Initiated">
+            <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+          </element>
+          <element code="308693008" codeSystem="2.16.840.1.113883.6.96" displayName="TTM Initiated Date/Time">
+            <value xsi:type="TS" value="2025-04-15T09:55:00" />
+          </element>
+          <element code="428735001" codeSystem="2.16.840.1.113883.6.96" displayName="Patient Location">
+            <value xsi:type="CD" code="409971007" codeSystem="2.16.840.1.113883.6.96" displayName="Emergency Medical Service" />
+          </element>
+          <element code="386725007" codeSystem="2.16.840.1.113883.6.96" displayName="Initial Target Temperature Goal">
+            <value xsi:type="PQ" value="34" unit="°C" />
+          </element>
+          <element code="386725007" codeSystem="2.16.840.1.113883.6.96" displayName="Target Temperature Achieved Date/Time">
+            <value xsi:type="TS" value="2025-04-15T10:00:00" />
+          </element>
+          <element code="1055210001" codeSystem="2.16.840.1.113883.6.96" displayName="Rewarming Phase Initiated Date/Time">
+            <value xsi:type="TS" value="2025-04-15T10:05:00" />
+          </element>
+        </section>
+      </section>
+      <section code="DISCHARGE" displayName="Discharge">
+        <element code="1000142457" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Date/Time">
+          <value xsi:type="TS" value="2025-04-16T09:51:00" />
+        </element>
+        <element code="75527-2" codeSystem="2.16.840.1.113883.6.1" displayName="Discharge Status">
+          <value xsi:type="CD" code="438949009" codeSystem="2.16.840.1.113883.6.96" displayName="Alive" />
+        </element>
+        <element code="1000142453" codeSystem="2.16.840.1.113883.3.3478.6.1">
+          <value xsi:type="NUM" value="1112223334" />
+        </element>
+        <element code="1000142453" codeSystem="2.16.840.1.113883.3.3478.6.1">
+          <value xsi:type="LN" value="AAAaaaaaaa" />
+        </element>
+        <element code="1000142453" codeSystem="2.16.840.1.113883.3.3478.6.1">
+          <value xsi:type="FN" value="AAaaaaaa1" />
+        </element>
+        <element code="1000142453" codeSystem="2.16.840.1.113883.3.3478.6.1">
+          <value xsi:type="MN" value="mn6666" />
+        </element>
+        <element code="100001095" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="NCDR Research Study">
+          <value xsi:type="BL" value="true" />
+        </element>
+        <section code="RSTUDY" displayName="Research Study">
+          <element code="100001096" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Study Name">
+            <value xsi:type="ST" value="TestQA1" />
+          </element>
+          <element code="2.16.840.1.113883.3.3478.4.852" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Patient ID">
+            <value xsi:type="ST" value="TestQA1" />
+          </element>
+        </section>
+        <section code="RSTUDY" displayName="Research Study">
+          <element code="100001096" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Study Name">
+            <value xsi:type="ST" value="TestQA2" />
+          </element>
+          <element code="2.16.840.1.113883.3.3478.4.852" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Patient ID">
+            <value xsi:type="ST" value="TestQA2" />
+          </element>
+        </section>
+        <section code="LVEF" displayName="Left Ventricular Ejection Fraction">
+          <element code="250908004" codeSystem="2.16.840.1.113883.6.96" displayName="LVEF Assessed">
+            <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+          </element>
+          <element code="10230-1" codeSystem="2.16.840.1.113883.6.1" displayName="LVEF Measurement">
+            <value xsi:type="PQ" value="70" unit="%" />
+          </element>
+        </section>
+        <section code="ADDLDC" displayName="Additional Discharge Details">
+          <element code="106165002" codeSystem="2.16.840.1.113883.6.96" displayName="Cerebral Performance Category (CPC) Score">
+            <value xsi:type="CD" code="106165002" codeSystem="2.16.840.1.113883.6.96" displayName="Finding Related to Cerebral Function" />
+          </element>
+          <element code="112000000242" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Enrolled in Clinical Trial During Hospitalization">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="112000000306" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Type of Clinical Trial(s)">
+            <value xsi:type="CD" code="112000000243" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Clinical Trial precluding the use of aspirin in protocol" />
+            <value xsi:type="CD" code="112000000247" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Clinical Trial involving new antiplatelet therapies" />
+          </element>
+          <element code="133918004" codeSystem="2.16.840.1.113883.6.96" displayName="Comfort Measures Only">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="385763009" codeSystem="2.16.840.1.113883.6.96" displayName="Hospice Care">
+            <value xsi:type="BL" value="false" />
+          </element>
+          <element code="100014067" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Cardiac Rehabilitation Referral">
+            <value xsi:type="CD" code="100013072" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes" />
+          </element>
+          <element code="75528-0" codeSystem="2.16.840.1.113883.6.1" displayName="Discharge Location">
+            <value xsi:type="CD" code="01" codeSystem="2.16.840.1.113883.12.112" displayName="Home" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="1191" codeSystem="2.16.840.1.113883.6.88" displayName="Aspirin" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001247" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes - Prescribed" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="32968" codeSystem="2.16.840.1.113883.6.88" displayName="Clopidogrel" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="613391" codeSystem="2.16.840.1.113883.6.88" displayName="Prasugrel" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="1116632" codeSystem="2.16.840.1.113883.6.88" displayName="Ticagrelor" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="33252009" codeSystem="2.16.840.1.113883.6.96" displayName="Beta Blocker" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="41549009" codeSystem="2.16.840.1.113883.6.96" displayName="Angiotensin Converting Enzyme Inhibitor" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="372913009" codeSystem="2.16.840.1.113883.6.96" displayName="Angiotensin II Receptor Blocker" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="112000001832" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Angiotensin Receptor-Neprilysin Inhibitor" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="372603003" codeSystem="2.16.840.1.113883.6.96" displayName="Aldosterone Antagonist" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="112000001416" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Anticoagulant" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="11289" codeSystem="2.16.840.1.113883.6.88" displayName="Warfarin" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001048" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Not Prescribed - No Reason" />
+          </element>
+        </section>
+        <section code="DCMEDS" displayName="Discharge Medications">
+          <element code="100013057" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Discharge Medication Code">
+            <value xsi:type="CD" code="96302009" codeSystem="2.16.840.1.113883.6.96" displayName="Statin" />
+          </element>
+          <element code="432102000" codeSystem="2.16.840.1.113883.6.96" displayName="Prescribed at Discharge">
+            <value xsi:type="CD" code="100001247" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Yes - Prescribed" />
+          </element>
+          <element code="100014233" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Dose">
+            <value xsi:type="CD" code="100014036" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Low Dose" />
+          </element>
+        </section>
+        <section code="DCMEDDTLS" displayName="Discharge Medication Details">
+          <element code="112000003576" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Aspirin Prescribed Dose Greater Than 100 mg">
+            <value xsi:type="BL" value="true" />
+          </element>
+          <element code="112000003581" codeSystem="2.16.840.1.113883.3.3478.6.1" displayName="Patient or Medical Reason for Not Prescribing High-Dose Statin">
+            <value xsi:type="BL" value="true" />
+          </element>
+        </section>
+      </section>
+    </episode>
+  </patient>
+</registryDocument>
