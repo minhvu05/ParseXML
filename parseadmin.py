@@ -14,9 +14,9 @@ def parse_admin(file):
     admin_section = root.find(".//submission/section[@code='ADMIN']")
 
     # looping through all elements under admin section
-    for e in admin_section.findall("element"):
-        display_name = e.attrib.get("displayName", "")
-        value_element = e.find("value")
+    for elem in admin_section.findall("element"):
+        display_name = elem.attrib.get("displayName", "")
+        value_element = elem.find("value")
 
         # checking if there is actually a value associated w/ display
         if value_element is not None:
@@ -30,6 +30,7 @@ def parse_admin(file):
 
         data.append((display_name, value))
 
+    # putting into csv
     df = pd.DataFrame(data, columns = ["display_name", "value"])
     output_name = f"{base_name}-{transmission_number}.csv"
     df.to_csv(output_name, index = False)
