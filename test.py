@@ -1,22 +1,39 @@
 import xml.etree.ElementTree as ET
-import pandas as pd
 
 tree = ET.parse("CPMI999999-2025Q2.xml")
 root = tree.getroot()
 
-# only looking at admin section of xml file
-admin_section = root.find(".//submission/section[@code='ADMIN']")
+patients = []
 
-# if admin section in file
-if admin_section is not None:
-    # looping through all elements
-    for e in admin_section.findall("element"):
-        display_name = e.attrib.get("displayName", "")
-        value_element = e.find("value")
-        # checking if there is actually a value associated w/ display
-        value = value_element.attrib.get("value", "") if value_element is not None else ""
-        print(f"{display_name}: {value}")
-else:
-    print("ADMIN section not found.")
+for patient in root.findall("patient"):
+    # Get the patient ID from the attribute
+    patient_id = patient.attrib.get("ncdrPatientId", "")
 
+    # Initialize dictionary for this patient
+    info = {
+        "ncdrPatientId": patient_id,
+        "Last Name": "",
+        "First Name": "",
+        "SSN": "",
+        "Birth Date": "",
+        "Sex": "",
+        "Patient Zip Code": ""
+    }
 
+    # Look inside the DEMOGRAPHICS section
+    demo_section = patient.find("section[@code='DEMOGRAPHICS']")
+    if demo_section is not None:
+        for elem in demo_section.findall("element"):
+            label = elem.attrib.get("displayName", "")
+            value_elem = elem.find("value")
+            if value_elem is not None: 
+                value = value_elem.attrib.get("value", "") 
+            else:
+                value = ""
+
+            if label in info:
+                info[label] = value
+
+    patients.append(info)
+
+print(patients)
