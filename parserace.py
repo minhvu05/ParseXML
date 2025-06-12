@@ -19,7 +19,6 @@ def parse_race(file):
     # looping through all elements under patient section
     for patient in root.findall("patient"):
         patient_id = patient.attrib.get("ncdrPatientId", "")
-        selected_races = []
 
         # looking at only demographics
         demo_section = patient.find("section[@code='DEMOGRAPHICS']")
@@ -31,16 +30,13 @@ def parse_race(file):
             else:
                 value = ""
 
-            # check if it falls under the race categories and true
+            # check if it falls under the race categories and is true
             if display_name in race_labels and value.lower() == "true":
-                selected_races.append(display_name)
+                data.append({
+                    "ncdrPatientId": patient_id,
+                    "Race": display_name
+                })
 
-        # only add if at least one race is true
-        if selected_races:
-            data.append({
-                "ncdrPatientId": patient_id,
-                "Race(s)": ", ".join(selected_races)
-            })
 
     # putting into csv
     df = pd.DataFrame(data)
