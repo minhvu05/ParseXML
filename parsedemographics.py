@@ -39,6 +39,7 @@ def parse_demographics(file):
             "Sex": "",
             "Patient Zip Code": ""
         }
+        # arr -> dict
 
         # looking inside demographics section only
         demo_section = patient.find("section[@code='DEMOGRAPHICS']")

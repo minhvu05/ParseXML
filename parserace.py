@@ -43,4 +43,4 @@ def parse_race(file):
     output_name = f"{base_name}-race.csv"
     df.to_csv(output_name, index=False)
 
-parse_race("CPMI999999-2025Q2.xml")
+print(parse_race("CPMI999999-2025Q2.xml"))

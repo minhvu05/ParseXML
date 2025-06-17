@@ -1,6 +1,8 @@
 import xml.etree.ElementTree as ET
 import pandas as pd
 
+## MAYBE INCORRECT DOUBLE CHECK
+
 # only looking at the admin section of xml file
 def parse_admin(file):
     # initializing etree, data, and naming vars 
@@ -37,4 +39,4 @@ def parse_admin(file):
 
 
 
-parse_admin("CPMI999999-2025Q2.xml")
+print(parse_admin("CPMI999999-2025Q2.xml"))
