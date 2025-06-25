@@ -28,15 +28,6 @@ class Parser():
         else:
             return ""
 
-    # for elem in demo_section.findall("element"):
-    #             display_name = elem.attrib.get("displayName", "")
-    #             value_elem = elem.find("value")
-
-    #             if value_elem is not None: 
-    #                 value = value_elem.attrib.get("value", "") 
-    #             else:
-    #                 value = ""
-
     # storing the transmission number
     def get_transmission(self):
         # looking only through the admin section
@@ -66,7 +57,7 @@ class Parser():
         df.to_csv(output_name, index = False)
 
     # parses the admin section 
-    #todo add code and codesystem cols
+    #todo for element -> value where there are 2 display names, what do we do w 2nd one?
     def parse_admin(self):
         root = self.get_root()
         data = []
@@ -75,14 +66,21 @@ class Parser():
         for elem in admin_section.findall("element"):
             display_name = elem.attrib.get("displayName", "")
             value_elem = elem.find("value")
+            code = elem.attrib.get("code", "")
+            codeSystem = elem.attrib.get("codeSystem", "")
 
             # checking if there is actually a value associated w/ display
             value = self.get_value(value_elem)
 
-            data.append((display_name, value))
+            data.append({
+                "Display Name": display_name,
+                "Value": value,
+                "Code": code,
+                "CodeSystem": codeSystem
+            })
         
         # not using overriden .to_csv() method bc param differences (? maybe could fix ?)
-        df = pd.DataFrame(data, columns = ["display_name", "value"])
+        df = pd.DataFrame(data)
         output_name = f"{self.get_base()}-{self.get_transmission()}.csv"
         df.to_csv(output_name, index = False)
 
@@ -199,6 +197,9 @@ class Parser():
         df = pd.DataFrame(ethnicity_rows)
         output_name = f"{self.get_base()}-ethnicity.csv"
         df.to_csv(output_name, index=False)
+
+    def episode_placeholder_name(self):
+        return 0
 
 
 parser = Parser("CPMI999999-2025Q2.xml")
