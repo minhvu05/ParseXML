@@ -5,6 +5,7 @@ class Processor():
     def __init__(self, file):
         self.file = file
         self.counter = 1  # initialize the counter
+        self.section_counter = 1 # initialize the second counter
 
     def get_episode(self):
 
@@ -49,7 +50,7 @@ class Processor():
                     ))
                     self.section_counter += 1
 
-        df = pd.DataFrame(data, columns=["counter", "patientid", "episodekey", "displayName", "code"])
+        df = pd.DataFrame(data, columns=["section_level1_key", "patientid", "episodekey", "displayName", "code"])
         output_name = "section-level1.csv"
         df.to_csv(output_name, index = False)
 
