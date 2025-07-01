@@ -1,0 +1,29 @@
+counter,patientid,episodekey,displayName,code
+1,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Episode of Care,EPISODEOFCARE
+2,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Diagnosis and Intersystem Care Delivery,DIAGISCD
+3,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,History and Risk Factors,HXANDRISKFACTORS
+4,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Patient Assessment On Arrival,PTASSESS
+5,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Medications,MEDS
+6,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Labs,LABS
+7,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Treatment Strategy,TXSTRATEGY
+8,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Episode Events,EPISODEEVENTS
+9,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Discharge,DISCHARGE
+10,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Episode of Care,EPISODEOFCARE
+11,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Diagnosis and Intersystem Care Delivery,DIAGISCD
+12,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,History and Risk Factors,HXANDRISKFACTORS
+13,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Patient Assessment On Arrival,PTASSESS
+14,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Medications,MEDS
+15,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Labs,LABS
+16,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Treatment Strategy,TXSTRATEGY
+17,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Episode Events,EPISODEEVENTS
+18,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Discharge,DISCHARGE
+19,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Episode of Care,EPISODEOFCARE
+20,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Diagnosis and Intersystem Care Delivery,DIAGISCD
+21,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,History and Risk Factors,HXANDRISKFACTORS
+22,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Patient Assessment On Arrival,PTASSESS
+23,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Patient Evaluation,PTEVAL
+24,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Medications,MEDS
+25,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Labs,LABS
+26,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Treatment Strategy,TXSTRATEGY
+27,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Episode Events,EPISODEEVENTS
+28,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Discharge,DISCHARGE
