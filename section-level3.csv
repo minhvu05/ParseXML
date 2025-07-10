@@ -1,0 +1,24 @@
+section3_counter,section2_counter,episode_counter,patientid,episodekey,displayName,code
+1,1,1,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Health Insurance,HEALTHINS
+2,12,1,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Home Medications,HOMEMEDS
+3,12,1,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Home Medications,HOMEMEDS
+4,12,1,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Home Medications,HOMEMEDS
+5,12,1,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Home Medications,HOMEMEDS
+6,13,1,9442318,2be0aff6-df4d-49b0-9931-03b8b71bd77a,Arrival Medications,ARVLMEDS
+7,55,2,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Health Insurance,HEALTHINS
+8,66,2,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Home Medications,HOMEMEDS
+9,66,2,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Home Medications,HOMEMEDS
+10,66,2,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Home Medications,HOMEMEDS
+11,66,2,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Home Medications,HOMEMEDS
+12,67,2,9442381,ee22d29f-77ee-46cb-a71d-c12a5c0e7b89,Arrival Medications,ARVLMEDS
+13,97,3,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,ED Professionals,EDPRO
+14,97,3,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Admitting Professional,ADMITPRO
+15,97,3,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Attending Professionals,ATTPRO
+16,97,3,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Health Insurance,HEALTHINS
+17,111,3,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Troponin,TROPONIN
+18,111,3,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Troponin,TROPONIN
+19,114,3,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Home Medications,HOMEMEDS
+20,114,3,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Home Medications,HOMEMEDS
+21,114,3,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Home Medications,HOMEMEDS
+22,114,3,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Home Medications,HOMEMEDS
+23,115,3,9442385,3e345000-0a23-4a0c-a0bb-b9012918dfb3,Arrival Medications,ARVLMEDS
