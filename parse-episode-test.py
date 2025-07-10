@@ -16,10 +16,13 @@ class Processor():
         self.episode_counter = 1 # reset count & dict
         self.episode_dict = {} 
 
+        # looping through just episodes
         for patient in root.findall('.//patient'):
             patientid = patient.attrib.get('ncdrPatientId')
             for episode in patient.findall('episode'):
                 episodekey = episode.attrib.get('episodeKey')
+
+                # assign count to key, fill array, increment count
                 self.episode_dict[episodekey] = self.episode_counter 
                 data.append((patientid, episodekey, self.episode_counter))
                 self.episode_counter += 1
@@ -28,10 +31,12 @@ class Processor():
         df.to_csv("episode.csv", index = False)
 
     def process_section(self, section, level, parent_counter, patientid, episodekey, episode_counter):
+        # if no level (key) in section_counter dict, initialize count to 0 and create empty list (value) for section_data
         if level not in self.section_counters:
             self.section_counters[level] = 1
             self.section_data[level] = []
 
+        # gets/uses input data and assigns it to the level in section_data dict 
         current_counter = self.section_counters[level]
         display_name = section.attrib.get("displayName")
         code = section.attrib.get("code")
@@ -48,6 +53,7 @@ class Processor():
 
         self.section_counters[level] += 1
 
+        # recursion to get into nested sections
         for child_section in section.findall("section"):
             self.process_section(
                 child_section, 
@@ -58,34 +64,37 @@ class Processor():
                 episode_counter  
             )
 
-
-    def extract_sections_by_level(self):
+    def get_section(self):
         tree = ET.parse(self.file)
         root = tree.getroot()
+        # reset dicts
         self.section_counters = {}
         self.section_data = {}
 
         for patient in root.findall('.//patient'):
             patientid = patient.attrib.get('ncdrPatientId')
+
+            # first loop through epi to get key and value
             for episode in patient.findall('episode'):
                 episodekey = episode.attrib.get('episodeKey')
-
                 episode_counter = self.episode_dict.get(episodekey)
 
+                # loop and process each section
                 for section in episode.findall('section'):
                     self.process_section(
                         section=section,
                         level=1,
-                        parent_counter=None,
-                        patientid=patientid,
-                        episodekey=episodekey,
-                        episode_counter=episode_counter  # pass down
+                        parent_counter = None,
+                        patientid = patientid,
+                        episodekey = episodekey,
+                        episode_counter = episode_counter  # pass down
                     )
-
+        
+        # turn data into df put into csv
         for level, rows in self.section_data.items():
             df = pd.DataFrame(rows, columns=[
                 f"section{level}_counter",
-                f"section{level-1}_counter" if level > 1 else "parent",
+                f"section{level-1}_counter" if level > 1 else "parent", # not sure how to remove this col just yet
                 "episode_counter",
                 "patientid",
                 "episodekey",
@@ -99,4 +108,4 @@ class Processor():
 
 p = Processor("CPMI999999-2025Q2.xml")
 p.get_episode()
-p.extract_sections_by_level()
+p.get_section()
