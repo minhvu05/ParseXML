@@ -104,8 +104,75 @@ class Processor():
             output_name = f"section-level{level}.csv"
             df.to_csv(output_name, index = False)
 
+    def get_element(self):
+        tree = ET.parse(self.file)
+        root = tree.getroot()
+
+        section1_counter = 1
+        data = []
+
+        for patient in root.findall('.//patient'):
+            for episode in patient.findall('episode'):
+                for section in episode.findall('section'):
+                    # only getting first level sections right now
+                    for elem in section:
+                        # skip nested sections (for now)
+                        if elem.tag == 'section':
+                            continue
+
+                        code = elem.attrib.get("code")
+                        codeSystem = elem.attrib.get("codeSystem")
+                        displayName = elem.attrib.get("displayName")
+                        # only way to handle xsi:type
+                        dataType = elem.attrib.get("{http://www.w3.org/2001/XMLSchema-instance}type") 
+
+                        # try to get nested <value> tag if valid
+                        value_elem = elem.find("value")
+                        if value_elem is not None:
+                            value = value_elem.text or None
+                            value_code = value_elem.attrib.get("code")
+                            value_codeSystem = value_elem.attrib.get("codeSystem")
+                            value_displayName = value_elem.attrib.get("displayName")
+                        else:
+                            value = elem.text or None
+                            value_code = None
+                            value_codeSystem = None
+                            value_displayName = None
+
+                        # adding data
+                        data.append((
+                            section1_counter,
+                            code,
+                            codeSystem,
+                            displayName,
+                            dataType,
+                            value,
+                            value_code,
+                            value_codeSystem,
+                            value_displayName
+                        ))
+
+                    section1_counter += 1
+
+        # creating df and output
+        df = pd.DataFrame(data, columns=[
+            "section1_counter",
+            "code",
+            "codeSystem",
+            "displayName",
+            "dataType",
+            "value",
+            "value_code",
+            "value_codeSystem",
+            "value_displayName"
+        ])
+
+        output_name = f"section1_element.csv"
+        df.to_csv(output_name, index = False)
+
 
 
 p = Processor("CPMI999999-2025Q2.xml")
 p.get_episode()
 p.get_section()
+p.get_element()
