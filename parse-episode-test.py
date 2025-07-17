@@ -8,6 +8,7 @@ class Processor():
         self.episode_dict = {}  # key: episodeKey / value: episode_counter
         self.section_counters = {}  # key: level / level: counter (per section)
         self.section_data = {}      # key: level / level: row data
+        self.section_instances = {}  # key: code / value: num of instances
 
     def get_episode(self):
         tree = ET.parse(self.file)
@@ -30,7 +31,7 @@ class Processor():
         df = pd.DataFrame(data, columns=["patientId", "episodeKey", "episodeCounter"])
         df.to_csv("episode.csv", index = False)
 
-    def process_section(self, section, level, parent_counter, patientid, episodekey, episode_counter):
+    def process_section(self, section, level, parent_counter, patientid, episodekey):
         # if no level (key) in section_counter dict, initialize count to 0 and create empty list (value) for section_data
         if level not in self.section_counters:
             self.section_counters[level] = 1
@@ -41,14 +42,23 @@ class Processor():
         display_name = section.attrib.get("displayName")
         code = section.attrib.get("code")
 
+        if code:
+            if code not in self.section_instances:
+                self.section_instances[code] = 1
+            else:
+                self.section_instances[code] += 1
+            section_instance = self.section_instances[code]
+        else:
+            section_instance = None
+
         self.section_data[level].append((
             current_counter,
             parent_counter,
-            episode_counter,
             patientid,
             episodekey,
             display_name,
-            code
+            code,
+            section_instance
         ))
 
         self.section_counters[level] += 1
@@ -61,7 +71,6 @@ class Processor():
                 current_counter, 
                 patientid, 
                 episodekey,
-                episode_counter  
             )
 
     def get_section(self):
@@ -77,7 +86,6 @@ class Processor():
             # first loop through epi to get key and value
             for episode in patient.findall('episode'):
                 episodekey = episode.attrib.get('episodeKey')
-                episode_counter = self.episode_dict.get(episodekey)
 
                 # loop and process each section
                 for section in episode.findall('section'):
@@ -87,19 +95,18 @@ class Processor():
                         parent_counter = None,
                         patientid = patientid,
                         episodekey = episodekey,
-                        episode_counter = episode_counter  # pass down
                     )
         
         # turn data into df put into csv
         for level, rows in self.section_data.items():
             df = pd.DataFrame(rows, columns=[
-                f"section{level}_counter",
-                f"section{level-1}_counter" if level > 1 else "parent", # not sure how to remove this col just yet
-                "episode_counter",
+                f"section{level}_key",
+                f"section{level-1}_key" if level > 1 else "parent", # not sure how to remove this col just yet
                 "patientid",
                 "episodekey",
                 "displayName",
-                "code"
+                "code",
+                "section_instance"
             ])
             output_name = f"section-level{level}.csv"
             df.to_csv(output_name, index = False)
